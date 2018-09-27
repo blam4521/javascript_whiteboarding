@@ -1,14 +1,16 @@
-
 function anagrams(stringA, stringB) {
-    return cleanString(stringA) === cleanString(stringB);
+  return cleanString(stringA) === cleanString(stringB);
 }
 
 // helper functions
 function cleanString(str) {
-    return str.toLowerCase().sort().replace(/[^a-z]/g,'');
+  return str
+    .toLowerCase()
+    .sort()
+    .replace(/[^a-z]/g, "");
 }
 
-anagrams("dormitory", "dirty room")
+anagrams("dormitory", "dirty room");
 
 module.exports = anagrams;
 
@@ -16,11 +18,10 @@ module.exports = anagrams;
 //     str2 = stringB.replace(/[^A-Za-z0-9]/g,"").toLowerCase()
 //     // console.log(str1.length,str2.length)
 
-
 //     if(str1.length === str2.length){
 //         const str1_array = str1.split("")
 //         let str1_obj = {}
-        
+
 //         for(i=0;i<str1_array.length; i++) {
 //             let str1_count = 0
 //             let character = str1.charAt(i)
@@ -39,8 +40,8 @@ module.exports = anagrams;
 //         Object.keys(str1_obj).map(element => {
 //             console.log(str1_obj[element])
 //         })
-         
+
 //     } else {
 //         console.log('this is not a anagram')
 //         return false
-//     } 
+//     }
