@@ -1,3 +1,5 @@
+// Fib sequence function.
+
 function fib(n) {
   const result = [0, 1];
   for (let i = 2; i <= n; i++) {
