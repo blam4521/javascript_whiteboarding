@@ -1,3 +1,5 @@
+// Capitalize the first letter of each word.
+
 function capWords(stringA) {
   let arr = stringA.split(" ");
   console.log(arr);
