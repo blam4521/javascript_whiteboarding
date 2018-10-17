@@ -1,3 +1,5 @@
+// Replace word with another word.
+
 function anagrams(stringA, stringB) {
   return cleanString(stringA) === cleanString(stringB);
 }
