@@ -1,3 +1,5 @@
+// Creates a dictionary of values
+
 function twoMult(arr, M) {
   let mult = [];
   let hashTable = {};
@@ -19,4 +21,4 @@ function twoMult(arr, M) {
   return mult;
 }
 
-console.log(twoMult([1, 4, 5, -4, 9], 9));
+console.log(twoMult([1, 4, 48, -4, 7], 7));
